@@ -1,7 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
 import React from 'react';
 import { selectAllposts, postDeleted } from "./postSlice";
-import PostAuthor from "./PostAuthor";
+import PostAuthor from '../posts/postAuthor'; 
+
 import TimeAgo from "./TimeAgo";
 
 function PostList() {

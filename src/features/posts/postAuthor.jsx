@@ -8,4 +8,4 @@ const PostAuthor = ({ userId }) => {
 
     return <span>by {author ? author.name : 'Unknown author'}</span>
 }
-export default PostAuthor
+export default PostAuthor;

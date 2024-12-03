@@ -38,6 +38,10 @@
     font: inherit;
     margin-bottom: 1em;
   }
+  .delbtn{
+    margin-top: 4px;
+    padding: 5px 10px;
+  }
 
   main {
     max-width: 500px;

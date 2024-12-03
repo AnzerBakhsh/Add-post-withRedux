@@ -12,11 +12,11 @@ function PostList() {
     <article key={post.id}>
       <h3>{post.title}</h3>
       <p>{post.content.substring(0, 100)}</p> 
-      <p className="postCredit">
-        <PostAuthor userId={post.userId} /> 
+      <div className="postCredit"> 
+        <PostAuthor userId={post.userId} />
         <TimeAgo timestamp={post.date} /> 
-        <button className="delbtn" onClick={() => handleDeletePost(post.id)}>Delete</button>
-      </p>
+        <button onClick={() => handleDeletePost(post.id)}>Delete</button>
+      </div>
     </article>
   ));
 
